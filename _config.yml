@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: Dhruv Singh
+description: 'Self taught programmer, working on Python and Django'
+url: 'http://dhruvsingh.github.io'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Dhruv Singh'
+  email: dhruvsingh.er@gmail.com
+  twitter_username: _dhruvsingh
+  facebook_username: sudo.dhruv
+  github_username:  dhruvsingh
+  linkedin_username:  fuzzylogic
 
 defaults:
   -
@@ -25,7 +25,7 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:title/
+permalink: /:month/:year/:title/
 markdown: kramdown
 highlighter: rouge
 
