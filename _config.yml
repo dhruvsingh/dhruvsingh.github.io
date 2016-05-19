@@ -4,7 +4,7 @@ description: 'Self taught programmer, working on Python and Django'
 url: 'http://dhruvsingh.github.io'
 baseurl: '/'
 google_analytics: 'UA-32861100-9'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'dhruvsingh'
 
 author:
   name: 'Dhruv Singh'
