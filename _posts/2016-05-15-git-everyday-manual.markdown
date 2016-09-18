@@ -4,34 +4,41 @@ date:  2016-05-15
 categories: [git, programming, devtools]
 tags: [git, programming, devtools]
 ---
-## 1. STASH
-```git stash```
+An indispensable manual for everyday github commands.
 
-### 1.1 Read what's in a stash  without applying
+### 1. STASH
+--------
+```git stash```  
+Lets you save the current working directory (un-committed files) safely , to view later.
+
+**1.1 Read what's in a stash  without applying**  
 ```git stash show -p stash@{0}```
 
-### 1.2 Name Your Stash
+**1.2 Name Your Stash**  
 ```git stash save "guacamole sauce WIP"```
 
-### 1.3 Apply a Named Stash
+**1.3 Apply a Named Stash**  
 ```git stash apply stash^{/guacamo}```
 
-### 1.4 Delete a named stash
-```git stash drop```
+**1.4 Delete a named stash**  
+```git stash drop```  
 ```git stash drop stash@{5}```
 
-### 1.5 See stash list
+**1.5 See stash list**  
 ```git stash list```
 
 
-## 2. Revert a commit
+### 2. Revert a commit
+---------------------
 ```git reset --hard HEAD~1```
 
-## 3. Pulling from someone else's repo
+### 3. Pulling from someone else's repo
+--------------------------------------
 ```git remote add <name_for_the_coworker> git://path/to/coworkers/repo.git```  
 ```git fetch <name_for_the_coworker_given_above>```
 
-## 4. Squashing x commits together  
+### 4. Squashing x commits together  
+----------------------------------
 ``` git rebase -i HEAD~x``` - where **x** is the number of commits you want to squash together
 
 The above command will open an interactive terminal in front which would look something like this:  
