@@ -5,6 +5,7 @@ url: 'http://dhruvsingh.github.io'
 baseurl: '/'
 google_analytics: 'UA-32861100-9'
 disqus_shortname: 'dhruvsingh'
+google_verify: 'M70PGpT8MESjstmHFRAFLmzm7_bfGjo7_TlTHUEV_3U'
 
 author:
   name: 'Dhruv Singh'
