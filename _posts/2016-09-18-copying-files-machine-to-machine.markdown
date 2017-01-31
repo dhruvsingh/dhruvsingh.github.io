@@ -4,7 +4,9 @@ date:  2016-09-19
 categories: [linux]
 tags: [server, linux]
 ---
-For copying files from one server to the other you can use both the terminal and GUI. Listed below are the steps that you can follow to copy files using the linux **terminal**.
+Copying files between machines on a network.
+
+For copying files from one machine to the other you can use both the terminal and GUI. Listed below are the steps that you can follow to copy files using the linux **terminal**.
 
 ## [**scp**](http://man7.org/linux/man-pages/man1/scp.1.html) secure copy protocol.  
 --------
